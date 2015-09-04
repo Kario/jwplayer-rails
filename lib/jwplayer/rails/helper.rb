@@ -2,7 +2,7 @@ module JWPlayer::Rails
   module Helper
     DEFAULT_OPTIONS = {
       id: 'jwplayer',
-      flashplayer: '/assets/flash.swf'
+      flashplayer: '/assets/jwplayer.flash.swf'
     }
 
     LICENSE_OPTIONS = {
@@ -11,7 +11,7 @@ module JWPlayer::Rails
 
     # Includes JWPlayer javascript library
     def jwplayer_assets
-      javascript_include_tag "jwplayer", "jwplayer.html5"
+      javascript_include_tag "jwplayer"
     end
 
     # Includes JWPlayer license
