@@ -2,7 +2,7 @@ module JWPlayer::Rails
   module Helper
     DEFAULT_OPTIONS = {
       id: 'jwplayer',
-      flashplayer: image_url('jwplayer.flash.swf')
+      flashplayer: url('assets/jwplayer.flash.swf')
     }
 
     LICENSE_OPTIONS = {
