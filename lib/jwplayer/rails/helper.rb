@@ -1,7 +1,7 @@
 module JWPlayer::Rails
   module Helper
     DEFAULT_OPTIONS = {
-      id: 'jwplayer',
+      id: 'jwplayer'
     }
 
     LICENSE_OPTIONS = {
