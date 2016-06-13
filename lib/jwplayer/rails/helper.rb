@@ -7,7 +7,7 @@ module JWPlayer::Rails
       }
     end
     LICENSE_OPTIONS = {
-      license: 'ibokD9hXphW/Ishev3Bwp7ZZ//zIDV1W1bpD0Q=='
+      license: '2fGnbPrIFMn1QYwDDGxe96RS4XKCDeH0NPXHG2r6VCA='
     }
 
     # Includes JWPlayer javascript library
